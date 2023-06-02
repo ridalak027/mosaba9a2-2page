@@ -73,17 +73,22 @@ body{
 .nav2 .h{
     margin-right: 5px;
     color: purple;
+    text-decoration: none;
 }
 
 .nav2 .hh{
     margin-right: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .nav2 .hhh{
     margin-right: 15px;
+    text-decoration: none;
+    color: black;
 }
 
-.nav2 h4:hover{
+.nav2 a:hover{
     color: purple;
 }
 
