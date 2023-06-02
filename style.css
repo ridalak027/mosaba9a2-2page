@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 3200px;
+}
+
+/* begining  of nav 1 */
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.nav1 .search input{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 40px;
+  font-size: 15px;
+}
+
+.nav1 .search input:focus {
+    outline: none;
+}
+
+.nav1 .search i{
+    position: absolute;
+    top: 32px;
+    left: 45px;
+    font-size: 15px;
+}
+
+.nav1 h1{
+    border: 3px solid black;
+    padding: 5px;
+    position: absolute;
+    left: 580px;
+    top: 20px;
+}
+
+.nav1 .icone{
+    margin-top: 6px;
+    margin-right: 70px;
+}
+
+.nav1 .icone i{
+    font-size: 20px;
+    color: grey;
+    margin: 8px;
+}
+
+.nav1 .icone i:hover{
+    color: black;
+}
+
+/* end of nav 1 */
+
+.nav2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.nav2 .h{
+    margin-right: 5px;
+    color: purple;
+}
+
+.nav2 .hh{
+    margin-right: 5px;
+}
+
+.nav2 .hhh{
+    margin-right: 15px;
+}
+
+.nav2 h4:hover{
+    color: purple;
+}
+
+.nav2 i{
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+/* end of nav 2 */
+
+.covertxt{
+    background-image: url(image/hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.covertxt div{
+    padding-top: 190px;
+    margin-left: 820px;
+}
+
+.covertxt div h3{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.covertxt div pre{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.covertxt div button{
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    color: white;
+    background-color: purple;
+    transition: all 1s ease;
+}
+
+.covertxt div button:hover{
+    box-shadow: 2px 2px 2px black;
+    transform: translate(5px,5px);
+}
+
+/*  end of section class="covertxt" */
+
+.divcustom {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.divcustom .txt{
+    margin:  5px 30px 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divcustom .txt h5{
+    margin-bottom: 5px;
+}
+
+.divcustom div i{
+    color: purple;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+/*  end of section class="divcustom" */
+
+
+.div3img {
+   display: flex;
+   justify-content: center;
+   margin-top: 80px;
+}
+
+.div3img div{
+    margin-right: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.div3img div img{
+    width: 350px;
+    height: 500px;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+
+.div3img div:hover img{
+    transform: scale(1.5);
+}
+
+.div3img div h3{
+    position: absolute;
+    left: 10px;
+    top: 450px;
+    color: white;
+    font-size: 40px;
+}
+
+.div3img div p{
+    position: absolute;
+    left: 15px;
+    top: 430px;
+    color: white;
+    font-size: 15px;
+}
+
+/* end of div3img */
+.divfeatured {
+    background-color: rgb(245, 248, 245);
+    margin-top: 80px;
+    height: 600px;
+}
+
+.divfeatured .centertxt{
+    text-align: center;
+}
+
+.divfeatured .centertxt i{
+    color: purple;
+    font-size: 20px;
+}
+
+.divfeatured .centertxt h3{
+    font-size: 30px;
+}
+
+.divfeatured section{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.divfeatured section div{
+    margin-right: 30px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.divfeatured section div img{
+    width: 350px;
+    height: 250px;
+}
+
+.divfeatured section div h5{
+    text-align: center;
+    margin-bottom: 5px;
+    color: purple;
+    font-size: 20px;
+}
+
+.divfeatured section div pre{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.divfeatured section div p{
+    text-align: center;
+    margin-bottom: 5px;
+    color: purple;
+}
+
+/* end of divfeatrured */
+
+.divBig {
+    margin-top: 80px;
+    height: 600px;
+}
+
+.divBig .centertxt{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.divBig .centertxt i{
+    color: purple;
+    font-size: 20px;
+}
+
+.divBig .centertxt h3{
+    font-size: 30px;
+}
+
+.divBig section{
+    display: flex;
+    justify-content: center;
+}
+
+.divBig section .simg{
+    margin-right: 60px;
+}
+
+.divBig section .simg img{
+    width: 700px;
+    height: 400px;
+}
+
+.divBig section .stxt h3{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 35px;
+    color: purple;
+    margin-top: 90px;
+}
+
+.divBig section .stxt pre {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.divBig section .stxt pre color{
+    color: purple;
+}
+
+.divBig section .stxt button{
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    margin-left: 180px;
+    border: 1px solid purple;
+    color: white;
+    background-color: purple;
+    transition: all 1s ease;
+}
+
+/* end of divBig */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 60px 60px 60px;
+}
+
+footer div ul{
+    list-style-type: none;
+}
+
+footer .ultxt ul{
+    margin-top: 40px;
+}
+
+footer .ulimg h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+footer div ul li{
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+footer .ulimg img{
+    width: 250px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+footer .ulimg p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+footer .ulimg p color{
+    color: purple;
+}
+
+footer .ulimg pre{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+footer .ulimg pre i{
+    color: purple;
+}
+
+footer .ulimg h4{
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+footer .ulimg{
+    position: relative;
+}
+
+footer .ulimg input{
+    padding: 12px 15px 12px 12px;
+    margin-top: 10px;
+    border: 2px solid grey;
+    border-radius: 7px;
+}
+
+footer .ulimg button{
+    position: absolute;
+    top: 233px;
+    padding: 8px;
+    right: 80px;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+h6{
+    text-align: center;
+    color: grey;
+    padding: 30px 20px 60px 20px;
+}
+
+/* end of footer */
+.badyabout{
+    height: 1500px;
+}
+
+.tape{
+    background-color: rgb(245, 248, 245);
+    padding: 20px;
+}
+
+.tape h3{
+  margin-left: 60px;
+}
+
+.tape h3 color{
+    color: purple;
+}
+
+/* end of tape */
+
+.imgpriz {
+    margin-top: 80px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgpriz .stxt p{
+    color: purple;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imgpriz .stxt h3{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.imgpriz .simg{
+    margin-right: 60px;
+}
+
+.imgpriz .simg img{
+    width: 700px;
+    height: 400px;
+}
+
+
+
+.imgpriz .stxt pre {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+/* end of imgpriz */
+
+.team{
+    margin: 60px;
+}
+
+.team div h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.team div i{
+    margin-left: 600px;
+    font-size: 30px;
+    color: purple;
+}
+
+.team section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.team section div {
+    margin: 40px;
+}
+
+.team section div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 55px;
+}
+
+.team section div h3{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.team section div h5{
+    text-align: center;
+    color: rgb(148, 148, 146);
+    margin-bottom: 30px;
+}
+
+.team section div pre{
+    font-size: 12px;
+    color: rgb(148, 148, 146);
+}
+
+/* end of divcustom */
+
+.hrh{
+    color: rgb(148, 148, 146);
+    margin-top: 50px;
+}
