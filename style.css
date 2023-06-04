@@ -43,6 +43,7 @@ body{
     position: absolute;
     left: 580px;
     top: 20px;
+    color: black;
 }
 
 .nav1 .icone{
@@ -231,6 +232,11 @@ body{
     margin-right: 30px;
     background-color: white;
     padding-bottom: 50px;
+    transition: all 0.4s ease-out;
+}
+
+.divfeatured section div:hover{
+    transform: translate(5px,5px);
 }
 
 .divfeatured section div img{
@@ -317,6 +323,10 @@ body{
     color: white;
     background-color: purple;
     transition: all 1s ease;
+}
+
+.divBig section .stxt button:hover{
+    transform: translate(5px,5px);
 }
 
 /* end of divBig */
@@ -592,6 +602,11 @@ h6{
 .total .right .firstline div{
     box-shadow: 2px 2px 2px 3px rgb(148, 148, 146);
     margin: 20px;
+    transition: all 0.4s ease-out;
+}
+
+.total .right .firstline div:hover{
+    transform: translate(5px,5px);
 }
 
 .total .right .firstline img{
@@ -632,6 +647,12 @@ h6{
     border-radius: 68%;
     color: rgb(148, 148, 146);
     box-shadow: 1px 1px 1px 0px rgb(148, 148, 146);
+    transition: all 0.5s ease;
+}
+
+.total .last p:hover{
+    background-color: purple;
+    color: white;
 }
 
 .total .last .number1{
@@ -697,6 +718,8 @@ h6{
 }
 
 /* end of divimg */
+
+/* end of the shop page */
 
 .bodyshopProduct{
     height: 1500px;
@@ -764,6 +787,7 @@ h6{
     border: 1px solid rgb(94, 94, 94);
     border-radius: 5px;
     padding: 5px 50px 11px 53px;
+    margin-bottom: 20px;
 }
 
 .imgproduct .stxt div .sub{
@@ -804,6 +828,7 @@ h6{
     border: 1px solid purple;
     border-radius: 5px;
     transition: all 1s ease;
+    text-decoration: none;
 }
 
 .imgproduct .stxt button:hover{
@@ -841,6 +866,11 @@ h6{
     margin-right: 30px;
     background-color: white;
     padding-bottom: 50px;
+    transition: all 0.5s ease;
+}
+
+.divfeatured2 section div:hover{
+    transform: translate(5px,5px);
 }
 
 .divfeatured2 section div img{
@@ -876,3 +906,479 @@ h6{
 
 /* end of divfeatured2*/
 
+/* end of the shopProduct page */
+
+.bodyaddcart{
+    height: 600px;
+}
+
+.tableau{
+    margin: 40px 30px 40px 60px ;
+}
+
+.tableau table{
+    width: 95%;
+}
+
+.tableau table thead th{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tableau table tbody th img{
+    margin-top: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.tableau table tbody .name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tableau table tbody .number{
+    font-size: 20px;
+    color: grey;
+}
+
+.tableau table tbody tr td div{
+    position: relative;
+}
+
+.tableau table tbody tr td div .number{
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 5px;
+    padding: 10px 3px 10px 3px ;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tableau table tbody tr td div .sub{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px 8px 10px ;
+    font-size: 25px;
+    position: absolute;
+    top: 50;
+    left: 15px;
+    transition: all 0.5s ease;
+}
+
+.tableau table tbody tr td div .sub:hover{
+    background-color: purple;
+    color: white;
+}
+
+.tableau table tbody tr td div .add{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px 8px 5px 8px ;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 143px;
+}
+
+.tableau table tbody tr td div .add:hover{
+    background-color: purple;
+    color: white;
+}
+
+.tableau table tbody tr th button{
+    padding: 10px 15px 10px 15px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+.tableau table tbody .secandline td div .add{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px 8px 5px 8px ;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 143px;
+}
+
+/* end of section of tableau */
+
+.butotal{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 100px 30px ;
+}
+
+.butotal .left{
+    padding: 30px;
+}
+
+.butotal .left .but1{
+    padding: 15px 50px 15px 50px;
+    margin-right: 15px;
+    font-size: 12px;
+    background-color: rgb(133, 61, 230);
+    color: white;
+    border: 2px solid rgb(133, 61, 230);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 12px;
+}
+
+.butotal .left .but1:hover{
+    transform: translate(2px,2px);
+}
+
+.butotal .left .but2{
+    padding: 15px 50px 15px 50px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    background-color: white;
+    color: rgb(83, 83, 83);
+    border: 2px solid rgb(194, 183, 204);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 12px;
+}
+
+.butotal .left .but2:hover{
+    transform: translate(2px,2px);
+}
+
+.butotal .left h3{
+   font-size: 25px;
+   margin-bottom: 8px; 
+}
+
+.butotal .left p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(146, 146, 146);
+}
+
+.butotal .left input{
+    padding: 12px 100px 12px 10px; 
+    border-radius: 5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.butotal .left input:focus{
+    outline: none;
+}
+
+.butotal .left .but3{
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    background-color: rgb(133, 61, 230);
+    color: white;
+    border: 2px solid rgb(133, 61, 230);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 12px;
+}
+
+.butotal .left .but3:hover{
+    transform: translate(2px,2px);
+}
+
+.butotal .right{
+    padding: 40px 50px 50px 50px;
+}
+
+
+.butotal .right h3{
+    font-size: 20px;
+    margin-bottom: 8px; 
+    margin-left: 155px;
+    font-weight: bold;
+}
+
+.butotal .right .txtf{
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.butotal .right .txts{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.butotal .right .but4{
+    padding: 20px 70px 20px 70px;
+    background-color: rgb(133, 61, 230);
+    color: white;
+    border: 2px solid rgb(133, 61, 230);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 12px;
+}
+
+.butotal .right .but4:hover{
+    transform: translate(2px,2px);
+}
+
+.butotal .right hr{
+    width: 300px;
+}
+
+/* end of butotal secation */
+/* end of addcart page */
+
+.bodycheckout{
+    height: 600px;
+}
+
+.input{
+    position: relative;
+}
+
+.input input{
+    padding: 30px 80px 30px 80px ;
+    width: 1150px;
+    border: 1px solid rgb(206, 206, 206);
+    box-shadow: 2px 2px 2px 1px rgb(206, 206, 206);
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.input p{
+    position: absolute;
+    top: 78px;
+    left: 120px;
+    font-size: 18px;
+    color: rgb(163, 163, 163);
+}
+
+.input p color{
+    color: purple;
+}
+
+/* end  input section */
+
+.alo {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 180px 0px;
+}
+
+.alo .left{
+    margin-left: 150px;
+}
+
+.alo .left .lefts{
+    box-shadow: 2px 2px 3px 3px grey;
+    width: 550px;
+    padding: 40px 20px 10px 20px ;
+}
+
+.alo .left h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.alo .left .lefts h4{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.alo .left .lefts h4 color{
+    color: red;
+}
+
+.alo .left .lefts .select{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.alo .left .lefts .select:focus{
+    outline: none;
+}
+
+.alo .left .lefts .display{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.alo .left .lefts .display div{
+    margin: 8px;
+}
+
+.alo .left .lefts .display input{
+    padding: 5px;
+}
+
+.alo .left .lefts input{
+    padding: 5px;
+    margin: 8px;
+}
+
+.alo .left .lefts h5{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.alo .left .lefts textarea{
+    width: 470px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.alo .right{
+    margin-right: 120px;
+}
+
+.alo .right .rights{
+    box-shadow: 2px 2px 3px 3px grey;
+    width: 450px;
+    padding: 30px 20px 50px 20px ;  
+    margin-bottom: 40px;  
+    margin-top: 15px;
+}
+
+.alo .right h3{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.alo .right .rights  .but3{
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    background-color: rgb(133, 61, 230);
+    color: white;
+    border: 2px solid rgb(133, 61, 230);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 12px;
+}
+
+.alo .right .rights .but3:hover{
+    transform: translate(2px,2px);
+}
+
+.alo .right .rights h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.alo .right .rights input{
+    padding: 12px 80px 12px 10px; 
+    border-radius: 5px;
+    border: 1px solid rgb(83, 83, 83);
+}
+
+.alo .right .rights input:focus{
+    outline: none;
+}
+
+.alo .right .rights .firstline{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.alo .right .rights .secandline{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(152, 152, 147);
+}
+
+.alo .right .rights .therdline{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.alo .right .rights p{
+    border: 1px solid rgb(197, 195, 195);
+    color: purple;
+    padding: 10px 40px 10px 10px ;
+    margin-bottom: 10px;
+}
+
+.alo .right .rights .but4{
+    padding: 20px 125px 20px 125px;
+    background-color: rgb(133, 61, 230);
+    color: white;
+    border: 2px solid rgb(133, 61, 230);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+.alo .right .rights .but4:hover{
+    transform: translate(2px,2px);
+}
+
+/* end of alo section */
+/* end of addcart page */
+
+.bodycontact{
+    height: 200px;
+}
+
+.thank{
+       margin-left: 520px;
+       margin-top: 60px;
+       margin-bottom: 100px;
+}
+
+.thank i{
+    background-color: rgb(58, 170, 58);
+    padding: 30px;
+    color: white;
+    border-radius: 55%;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-bottom: 8px;
+}
+
+.thank h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.thank h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: rgb(153, 152, 152);
+    margin-left: 30px;
+}
+
+.thank .but4{
+    padding: 20px 70px 20px 70px;
+    background-color: rgb(133, 61, 230);
+    color: white;
+    border: 2px solid rgb(133, 61, 230);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.thank .but4:hover{
+    transform: translate(2px,2px);
+}
